@@ -1,0 +1,447 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.3em;
+    }
+    a{
+        text-decoration: none;
+    }
+
+    
+    h1,h2,h3{
+        padding-bottom: 20px;
+    
+    }
+    
+    p{
+        margin: 10px 0;
+        text-align: justify;
+    }
+    
+    .pad1-y{
+        padding: 10px 0;
+    }
+    .pad2-y{
+        padding: 20px 0;
+    }
+    .pad3-y{
+        padding: 30px 0;
+    }
+    
+    /* Menu inicio */
+    #navbar{
+        
+        background: url(../img/youtube-banner-template-1.png) ;
+        color:#ffff;
+        overflow: auto;
+        
+       
+    }
+    
+    
+    #navbar a{
+        color: #ffff;
+    
+    }
+    
+    #navbar h1{
+        font-variant: small-caps;
+        border-width: 2px;
+        float: left;
+        padding-top: 20px ;
+        
+    }
+    #navbar ul{
+        list-style: none;
+        margin:0;
+        float:right;
+        
+       
+    }
+    
+    #navbar ul li{
+        float: left;
+        
+    
+    }
+    
+    #navbar ul li a{
+        display: block;
+        padding: 20px;
+        text-align: center ;
+    }
+    #navbar ul li a:hover,
+    #navbar ul li a.pagina-atual{
+    
+        background: white;
+        color: #333;
+        
+    
+    }
+   
+
+     
+    .container{
+        margin: auto;
+        max-width: 1300px;
+        overflow: auto;
+        padding-bottom: 0 21px;
+        
+    }
+     /* Menu Final */
+
+    /* primeiros passos/organização inicio */
+
+    #showcase{
+       
+        background-color:rgb(252, 252, 252);
+        height: 2900px;
+        
+       
+        
+    }
+    
+    
+    #showcase .showcase-principal{
+        color:rgb(5, 5, 5);
+        padding-top:15px;
+        margin: 8%;
+    
+    }
+    #showcase .showcase-principal h1{
+        font-size: 40px;
+        line-height: 2.0em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        background: url(../img/youtube-banner-template-1.png) ;
+        color: white;
+        margin: 2%;
+        
+       
+    }
+  
+    #showcase .showcase-principal h2{
+       
+        text-align: center ;
+
+    }
+    
+    #showcase .showcase-principal p{
+        padding-bottom: 20px;
+        line-height-step: 1.7em;
+       
+       
+        
+      
+    }
+
+    #showcase .showcase-principal img{
+        height: 300px;
+        text-align:center;
+      
+    }
+   
+    p {
+        margin: 0;
+        text-indent: 3ch;
+      }
+
+
+ /* tecnologias inicio */
+      #showcase1{
+       
+        background-color:rgb(252, 252, 252);
+        height: 7933px;
+        
+        
+    }
+
+    #showcase1 .showcase-principal h1{
+        font-size: 40px;
+        line-height: 2.0em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        background: url(../img/youtube-banner-template-1.png) ;
+        color: white;
+        margin: 2%;
+        
+       
+       
+    }
+    #showcase1 .showcase-principal{
+        color:rgb(5, 5, 5);
+        padding-top:15px;
+       text-align: justify;
+       margin: 8%;
+    
+    }
+    
+  
+    #showcase1 .showcase-principal h2{
+       
+        text-align: center ;
+
+    }
+    
+    #showcase1 .showcase-principal p{
+        padding-bottom: 20px;
+        line-height-step: 1.7em;
+        
+    }
+
+    #showcase1 .showcase-principal img{
+        height: 200px;
+        text-align:center;
+    }
+    p {
+        margin: 0;
+        text-indent: 3ch;
+      }
+      p1 {
+        margin: 0;
+        text-indent: 3ch;
+        
+      }
+
+      
+
+       /* tecnologias fim */
+
+
+      
+
+
+ /* Documentações inicio */
+      #showcaseDoc{
+       
+        background-color:rgb(252, 252, 252);
+        height: 2900px;
+       
+        
+    }
+
+    #showcaseDoc .showcase-principal h1{
+        font-size: 40px;
+        line-height: 2.0em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        background: url(../img/youtube-banner-template-1.png) ;
+        color: white;
+        margin: 2%;
+        
+       
+       
+    }
+    #showcaseDoc .showcase-principal{
+        color:rgb(5, 5, 5);
+        padding-top:15px;
+       text-align: justify;
+       margin: 8%;
+      
+
+    
+    }
+    
+  
+    #showcaseDoc .showcase-principal h2{
+       
+        text-align: center ;
+
+    }
+    
+    #showcaseDoc .showcase-principal p{
+        padding-bottom: 20px;
+        line-height-step: 1.7em;
+        
+        
+    }
+
+    #showcaseDoc .showcase-principal img{
+        height: 300px;
+        text-align:center;
+    }
+    p {
+        margin: 0;
+        text-indent: 3ch;
+       
+        
+      }
+      p1 {
+        margin: 0;
+        text-indent: 3ch;
+        
+      }
+
+
+ /* Documentações fim */
+
+
+ /* Dicas inicio */
+      #showcase2{
+       
+        background-color:rgb(252, 252, 252);
+        height: 1200px;
+       
+        
+        
+    }
+
+    #showcase2 .showcase-principal h1{
+        font-size: 40px;
+        line-height: 2.0em;
+        font-family: Arial;
+        text-align:center;
+        background: url(../img/youtube-banner-template-1.png) ;
+        color: white;
+        margin: 2%;
+        
+       
+       
+    }
+    #showcase2 .showcase-principal{
+        color:rgb(5, 5, 5);
+       
+       text-align: justify;
+       margin: 8%;
+       
+    
+    }
+    
+  
+    #showcase2 .showcase-principal h2{
+       
+        text-align: center ;
+    
+    }
+    
+    #showcase2 .showcase-principal p{
+        padding-bottom: 15px;
+        
+        
+    }
+    #showcase2 .showcase-principal a{
+        padding-bottom: 15px;
+        
+        
+    }
+    
+
+ /* Dicas Fim */
+   
+     /* Rodape inicio */
+    #rodape{
+        text-align:center;
+        background: url(../img/youtube-banner-template-1.png) ;
+        color:#fff;
+        padding: 20px;
+        
+        
+    }
+ /* Rodape fim */
+
+
+    /* Primeiros passos Celular */
+    @media screen and (max-width: 760px) {
+        /* Menu Celular  inicio */
+        .container h1 a{
+            text-align: center;
+        }
+        #navbar li{
+           float: none;
+           text-align: center;
+           width: 100%;
+        }
+       
+        /* Menu Celular fim */
+
+         /* Primeiros passos/organização Celular */
+        #showcase{
+            height: 3200px;
+        }
+
+        #showcase .showcase-principal h1{
+            font-size: 17px;
+            line-height: 3.0em;
+            margin: 2%;
+            width: 100%;
+            
+        }
+        #showcase .showcase-principal h2{
+            font-size: 15px;
+            
+    
+        }
+        #showcase .showcase-principal img{
+            height: 170px;
+            text-align:center;
+          
+        }
+    }
+
+    /* tecnologias celular */
+    @media screen and (max-width: 760px) {
+        #showcase1{
+            height: 12500px;
+        }
+        #showcase1 .showcase-principal h1{
+            font-size: 17px;
+            line-height: 3.0em;
+            margin: 2%;
+        }
+        #showcase1 .showcase-principal h2{
+            font-size: 15px;
+        }
+        #showcase1 .showcase-principal img{
+            height: 150px;
+            text-align:center;
+        }
+        #flutter{
+            height: 50px;
+            width: 250px;
+        }
+        #ionic{
+            height: 50px;
+            width: 250px;
+        }
+    }
+
+    /* documentações celular */
+    @media screen and (max-width: 760px) {
+
+        #showcaseDoc{
+            height: 3350px;
+        }
+    
+        #showcaseDoc .showcase-principal h1{
+            font-size: 17px;
+            line-height: 3.0em;
+            margin: 2%;
+        }
+        #showcaseDoc .showcase-principal h2{
+            font-size: 15px;
+        }
+        #showcaseDoc .showcase-principal img{
+            height: 170px;
+            text-align:center;
+        }
+    }
+    
+   
+    @media screen and (max-width: 760px) {
+        #showcase2{
+            height: 2200px;      
+        }
+        #showcase2 .showcase-principal h1{
+            font-size: 17px;
+            line-height: 3.0em;
+            margin: 2%;
+        }
+        #showcase2 .showcase-principal h2{
+            font-size: 15px;
+        }
+    }
